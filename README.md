@@ -1,54 +1,41 @@
-# 2d_Visualization_of_black_box_CNN_algorithms
-🧠 Explainable AI for CNN Visualization
+Explainable AI: Visualizing CNN Learning
+📌 Abstract
 
-This repository contains two Jupyter notebooks that demonstrate Explainable AI (XAI) techniques for understanding the learning process of Convolutional Neural Networks (CNNs). The focus is on visualizing what the network learns during training, making the "black box" of deep learning more interpretable.
+This repository explores explainable AI techniques for understanding how Convolutional Neural Networks (CNNs) learn and represent features during training. Deep learning models often behave like black boxes, and these notebooks aim to provide insights into their internal workings by visualizing activations, reconstructions, and interpretability methods.
 
-📌 Overview
-
-CNNs are highly effective in computer vision tasks, but they are often criticized for being opaque—it’s difficult to understand why they make certain predictions.
-This project applies visualization techniques to uncover the inner workings of CNNs by:
-
-Reconstructing feature maps from different layers.
-
-Generating deep dream–like overlays to highlight salient features.
-
-Visualizing convolutional filters and their evolution.
-
-Exploring interpretability techniques to see how CNNs perceive images.
-
-Together, these methods give insight into the hierarchical feature extraction that CNNs perform, starting from edges and textures to complex shapes.
+By using feature visualization, deconvolution, and overlay techniques, the notebooks highlight the hierarchical feature learning process of CNNs, from low-level edge detectors to high-level semantic representations. This enhances model transparency, improves interpretability, and aids in debugging CNN architectures.
 
 📂 Contents
-🔹 cnn_vis_v2.ipynb
+1. cnn_vis_v2.ipynb
 
-Implements CNN visualization techniques.
+Implements CNN visualization techniques to observe the learned feature maps.
 
-Displays feature activations layer by layer.
+Demonstrates how convolutional layers extract spatial and semantic patterns.
 
-Highlights how filters evolve and what features they capture.
+Provides step-by-step visualization of activations across different layers.
 
-Useful for understanding progressive abstraction in CNNs.
+Useful for understanding progressive feature learning in CNNs.
 
-🔹 deconvdeepdreamoverlayfeatreconstruction.ipynb
+2. deconvdeepdreamoverlayfeatreconstruction.ipynb
 
-Uses deconvolution, deep dream, and overlay methods.
+Extends visualization with advanced explainability methods:
 
-Reconstructs input images from intermediate feature representations.
+Deconvolutional Networks (DeconvNet): Back-projects activations to input space for interpretability.
 
-Provides an intuitive look into what the CNN emphasizes.
+DeepDream: Enhances learned features to make patterns more visible.
 
-Combines multiple interpretability techniques for deeper insights.
+Overlay Reconstructions: Combines activations with input images for clarity.
 
-🛠️ Methodology
+Helps analyze how specific features influence model predictions.
 
-The project leverages Explainable AI techniques including:
+Serves as a practical guide for feature reconstruction and interpretability.
 
-Deconvolutional Networks → Mapping activations back to pixel space.
+🎯 Purpose
 
-Deep Dream Visualizations → Enhancing learned patterns to see what excites neurons.
+These notebooks serve as a mini-framework for CNN explainability, designed for:
 
-Feature Reconstruction → Rebuilding images from intermediate CNN layers.
+Students & Researchers – to better understand CNN internals.
 
-Activation Maps → Showing which regions contribute most to predictions.
+Practitioners – to debug models and ensure interpretability.
 
-These methods make it possible to see how a CNN transforms raw input into high-level decisions.
+Educators – to demonstrate feature visualization techniques interactively.
