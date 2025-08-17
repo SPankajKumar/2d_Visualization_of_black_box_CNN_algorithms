@@ -1,11 +1,11 @@
 Explainable AI: Visualizing CNN Learning
-📌 Abstract
+
+Abstract
 
 This repository explores explainable AI techniques for understanding how Convolutional Neural Networks (CNNs) learn and represent features during training. Deep learning models often behave like black boxes, and these notebooks aim to provide insights into their internal workings by visualizing activations, reconstructions, and interpretability methods.
 
 By using feature visualization, deconvolution, and overlay techniques, the notebooks highlight the hierarchical feature learning process of CNNs, from low-level edge detectors to high-level semantic representations. This enhances model transparency, improves interpretability, and aids in debugging CNN architectures.
 
-📂 Contents
 1. cnn_vis_v2.ipynb
 
 Implements CNN visualization techniques to observe the learned feature maps.
@@ -30,7 +30,7 @@ Helps analyze how specific features influence model predictions.
 
 Serves as a practical guide for feature reconstruction and interpretability.
 
-🎯 Purpose
+Purpose
 
 These notebooks serve as a mini-framework for CNN explainability, designed for:
 
